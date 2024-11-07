@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+           
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about" onclick="scrollToSection('about')">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#education" onclick="scrollToSection('educatiion')">Education</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#experience" onclick="scrollToSection('experience')">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#poster" onclick="scrollToSection('poster')">Poster</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="#events" onclick="scrollToSection('events')">Events</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="#contact" onclick="scrollToSection('contact')">Contact</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800"><i class="fa-brands fa-gratipay fa-bounce" style="color: #06e506;"></i></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+       </div>
+       <div class="dropdown">
+            <div class="links">
+                <a href="#home" onclick="scrollToSection('home')">Home</a>
+                <a href="#about" onclick="scrollToSection('about')">About</a>
+                <a href="#education" onclick="scrollToSection('educatiion')">Education</a>
+                <a href="#experience" onclick="scrollToSection('experience')">Experience</a>
+                <a href="#poster" onclick="scrollToSection('poster')">Poster</a>
+                <a href="#events" onclick="scrollToSection('events')">Events</a>
+                <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    
+
+    <div class="my-details">
+        <section id="home">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                    <img src="WhatsApp Image 2024-10-16 at 3.38.29 PM.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Rayek</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am a student of First Year,Institute of Engineering and Management, Newtown, University of Engineering and Management,Kolkata,Area-III(B),Pin-700160.I am passionate about Programming and willing to work hard.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/7001502624" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/Rayek Ali" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/Rayek Ali" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/rayek1077" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                        <button onclick="window.location.href='mailto:roseyparvin3@gmail.com';">Hire me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <hr color="green">
+                <div class="section-content">
+                    <span><h2><u>ABOUT</u></h2>I am Rayek Bin Ali Molla. Well, I'm from Taki, North 24 Paraganas. </span>
+                </div>
+            </hr>
+        </section>
+        <section id="education">
+            <hr color="green">
+                <div class="section-content">
+                    <span>
+                        <h2><u>EDUCATION</u></h2><h1>10th Standard(Secondary Education)</h1><br>Taki Ramakrishna Mission High School<br> Board: WBBSE<br> Aggregate: 95% <br> Year of Completion: 2021 <h1>12th Standard (Higher Secondary Education)</h1> Taki Government High School <br> Board: WBCHSE <br> Stream: Science(PCMB)<br>Aggregate: 83.4%<br> Year of Completion: 2023.
+                    </span>
+                </div>
+            </hr>
+        </section>
+        <section id="experience">
+            <hr color="green">
+                <div class="section-content">
+                    <span>
+                        <h2><u>EXPERIENCES</u></h2>
+                        <p>Fresher</p>
+                    </span>
+                </div>
+            </hr>
+        </section>
+        <section id="poster">
+            <hr color="green">
+                <div class="section-content">
+                    <span>
+                        <h2><u>POSTERS</u></h2>
+                    </span>
+                </div>
+            </hr>
+        </section>
+        <section id="events">
+            <hr color="green">
+                <div class="section-content">
+                    <span>
+                        <h2><u>EVENTS</u></h2>
+                    </span>
+                </div>
+            </hr>
+        </section>
+        <section id="contact">
+            <hr color="green">
+                <div class="section-content">
+                    <span>
+                        <h2><u>CONTACTS</u></h2>
+                        <p>Phone no:7001502624</p>
+                        <p>Email:roseyparvin3@gmail.com</p>
+                        <p>Insta-Id:rayek1077</p>
+                        <p>Facebook:Rayek Ali</p>
+                        <p>Linkedin:Rayek Ali</p>
+                        <p>Address:Newtown,Kolkata,Area-III(B)</p>
+                        <p>Pin-700160</p>
+                    </span>
+                </div>
+            </hr>
+        </section>
+    </div>
+   
+    <button onclick="goToTop()" id="goAboveBtn" title="Go to top">🔼</button>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="javascript.js"></script>
+</body>
+</html>
